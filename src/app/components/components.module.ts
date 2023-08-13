@@ -6,13 +6,15 @@ import { NgChartsModule } from 'ng2-charts';
 
 import { IncrementadorComponent } from './incrementador/incrementador.component';
 import { DonaComponent } from './dona/dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
 @NgModule({
   declarations: [
     IncrementadorComponent,
-    DonaComponent
+    DonaComponent,
+    AccountSettingsComponent
   ],
   exports: [
     IncrementadorComponent,
