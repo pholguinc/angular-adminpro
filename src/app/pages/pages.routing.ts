@@ -13,7 +13,6 @@ const routes: Routes = [
       { path: '', component: DashboardComponent },
       { path: 'progress', component: ProgressComponent },
       { path: 'grafical', component: GraficalComponent },
-      
     ],
   },
 ];

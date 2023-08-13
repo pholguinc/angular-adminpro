@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-grafical',
@@ -7,5 +7,18 @@ import { Component } from '@angular/core';
   ]
 })
 export class GraficalComponent {
+
+
+
+  public labels1: string[] = [
+    'Download Sales',
+    'In-Store Sales',
+    'Mail-Order Sales',
+  ];
+
+  public data1 = [
+    [350, 450, 100]
+    ];
+
 
 }
