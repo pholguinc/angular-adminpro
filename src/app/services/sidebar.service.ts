@@ -12,19 +12,12 @@ export class SidebarService {
       submenu: [
         { title: 'Main',url: '/admin'},
         { title: 'ProgressBar',url: '/admin/progress'},
-        { title: 'Gráficas',url: '/admin/grafical'}
+        { title: 'Gráficas',url: '/admin/grafical'},
+        { title: 'Promesas',url: '/admin/promesas'},
+        { title: 'Rxjs',url: '/admin/rxjs'}
       ]
     },
 
-    {
-      title: 'Dashboard2',
-      icon: 'mdi mdi-gauge',
-      submenu: [
-        { title: 'Main',url: '/admin'},
-        { title: 'ProgressBar',url: '/admin/progress'},
-        { title: 'Gráficas',url: '/admin/grafical'}
-      ]
-    }
   ];
 
   constructor() { }
